@@ -1,0 +1,8 @@
+<div *ngIf="cvData">
+    <h2>My CV</h2>
+    <p>Name: {{ cvData.name }}</p>
+    <p>Email: {{ cvData.email }}</p>
+</div>
+<div *ngIf="!cvData">
+    <p>Loading CV data...</p>
+</div>
